@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Happy Teachers' Day</title>
+<title>Happy Teacher's Day</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Outfit:wght@400;600;700&family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
@@ -352,7 +352,7 @@ section.marq{background:linear-gradient(100deg,#ffd166,#ff9f43 55%,#ff6b8b);colo
   </div>
 
   <div class="heroContent" id="heroContent" data-par=".12">
-    <h1 class="mega" id="mega" aria-label="Happy Teachers' Day">
+    <h1 class="mega" id="mega" aria-label="Happy Teacher's Day">
       <span class="row l1" id="l1"></span>
       <span class="row l2" id="l2"></span>
       <span class="spark" style="left:-4%;top:6%;font-size:1.4rem;animation-delay:.3s" aria-hidden="true">✦</span>
@@ -360,7 +360,7 @@ section.marq{background:linear-gradient(100deg,#ffd166,#ff9f43 55%,#ff6b8b);colo
       <span class="spark" style="left:6%;bottom:2%;font-size:.9rem;animation-delay:1.6s" aria-hidden="true">✦</span>
       <span class="spark" style="right:10%;top:-6%;font-size:1.2rem;animation-delay:.7s" aria-hidden="true">✦</span>
     </h1>
-    <p class="sub" id="sub">5 October, World Teachers' Day</p>
+    <p class="sub" id="sub">5 October, World Teacher's Day</p>
 
     <div class="panel" id="panel">
       <form id="nameForm" autocomplete="off" novalidate>
@@ -519,7 +519,7 @@ EMB.islamiyat=EMB.quran;
 /* ================= Wish texts ================= */
 const WISH={
   chem:c=>({title:'Aap hamari zindagi ke sab se qeemti catalyst hain',
-    msg:`${c.N}, aap ne sikhaya ke har cheez ka ek formula hota hai, aur kamyabi ka formula sirf mehnat aur sabr hai. Aap khud khatam hue baghair hamari soch mein reaction tez karte rahe. Aap ki izzat Au yaani Gold se bhi zyada qeemti hai. Happy Teachers' Day!`,
+    msg:`${c.N}, aap ne sikhaya ke har cheez ka ek formula hota hai, aur kamyabi ka formula sirf mehnat aur sabr hai. Aap khud khatam hue baghair hamari soch mein reaction tez karte rahe. Aap ki izzat Au yaani Gold se bhi zyada qeemti hai. Happy Teacher's Day!`,
     pun:'Periodic table mein aap ka naam nahi, lekin dil mein aap ke saath hamara bond permanent hai.'}),
   math:c=>({title:'Aap ke baghair hamara har sawaal adhura hai',
     msg:`${c.N}, aap ne sikhaya ke mushkil se mushkil sawaal ka hal bhi sabr aur practice se nikalta hai. Aap hamari zindagi ke us equation ka wo hissa hain jis ke baghair answer kabhi sahi nahi aata. Aap ki rehnumai ka hisaab infinity tak chalta rahega.`,
@@ -552,7 +552,7 @@ const WISH={
     msg:`${c.N}, aap ne dikhaya ke ek chhote se cell mein bhi kitni badi kainaat chhupi hai. Aap ki mehnat ka beej hamari soch mein ugta hai aur har saal naya phal deta hai. Allah aap ko sehatmand aur khush rakhe.`,
     pun:'Hamare DNA mein ab aap ka sikhaya hua sabaq shamil ho chuka hai.'}),
   generic:c=>({title:'Aap hamare liye sirf ustaad nahi, rehnuma hain',
-    msg:`${c.N}, aap ne hamein sirf parhaya nahi, jeena bhi sikhaya.${c.S?` ${c.S} jaisa subject bhi aap ki wajah se aasan aur dilchasp lagta hai.`:''} Aap ki mehnat, sabr aur dua ka hum kabhi haq ada nahi kar sakte. Allah aap ko sehat, izzat aur dher saari khushiyan de. Happy Teachers' Day!`,
+    msg:`${c.N}, aap ne hamein sirf parhaya nahi, jeena bhi sikhaya.${c.S?` ${c.S} jaisa subject bhi aap ki wajah se aasan aur dilchasp lagta hai.`:''} Aap ki mehnat, sabr aur dua ka hum kabhi haq ada nahi kar sakte. Allah aap ko sehat, izzat aur dher saari khushiyan de. Happy Teacher's Day!`,
     pun:'Aap ki class mein ek ghanta ek minute jaisa guzar jata hai.',
     quote:{text:'جس نے مجھے ایک حرف بھی سکھایا، میں اس کا غلام ہوں',by:'Hazrat Ali (R.A.) se mansoob qaul',urdu:true}}),
 };
@@ -700,7 +700,7 @@ function buildBunting(){
   }
 }
 function buildHero(){
-  let i=letters($('#l1'),'Happy',0);letters($('#l2'),"Teachers' Day",i);
+  let i=letters($('#l1'),'Happy',0);letters($('#l2'),"Teacher's Day",i);
   // stars
   const st=$('#stars');
   for(let k=0;k<54;k++){const e=document.createElement('i');e.style.cssText=`left:${rnd(0,100).toFixed(1)}%;top:${rnd(0,52).toFixed(1)}%;--s:${rnd(1.5,3.4).toFixed(1)}px;--d:${rnd(2,5).toFixed(1)}s;--dl:-${rnd(0,5).toFixed(1)}s`;st.appendChild(e);}
@@ -814,7 +814,7 @@ function restart(){
     typeTok++;stopFinale();
     story.hidden=true;story.textContent='';
     $('#welcome').hidden=true;panel.hidden=false;
-    $('#sub').textContent="5 October, World Teachers' Day";
+    $('#sub').textContent="5 October, World Teacher's Day";
     clearAsk();input.value='';busy=false;
     document.body.classList.add('locked');window.scrollTo(0,0);
     input.focus({preventScroll:true});
@@ -921,7 +921,7 @@ function finaleHTML(N){
     <div class="in-wrap">
       <p class="fbig" data-r="zoom">Shukriya</p>
       <p class="fname" data-r="up" style="--dl:.2s">${N}</p>
-      <p class="ftext words">Aap ne hamein sirf parhaya nahi, insaan banna sikhaya. Aap ki mehnat, sabr aur dua ka hum kabhi haq ada nahi kar sakte. Allah aap ko sehat, izzat aur dher saari khushiyan de. Happy Teachers' Day!</p>
+      <p class="ftext words">Aap ne hamein sirf parhaya nahi, insaan banna sikhaya. Aap ki mehnat, sabr aur dua ka hum kabhi haq ada nahi kar sakte. Allah aap ko sehat, izzat aur dher saari khushiyan de. Happy Teacher's Day!</p>
       <p class="from" data-r="up" style="--dl:.5s">Dil se, ${esc(FROM)}</p>
       <div class="factions" data-r="up" style="--dl:.7s">
         <button class="go" id="fwBtn" type="button">Aatishbazi dekhein</button>
